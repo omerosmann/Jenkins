@@ -1,0 +1,36 @@
+spring:
+  task:
+    scheduling:
+      thread-name-prefix: scheduled-task-
+      pool:
+        size: '1'
+  application:
+    name: jenkins-console
+  main:
+    banner-mode: 'off'
+  jackson:
+    serialization:
+      fail-on-empty-beans: 'false'
+server:
+  port: '9210'
+project:
+  name: deneme
+
+
+
+
+
+#  project.name=deneme
+#
+## Spring Boot Configuration
+#spring.main.banner-mode=off
+#spring.application.name=jenkins-console
+#
+## Jackson Configuration
+#spring.jackson.serialization.fail-on-empty-beans=false
+#
+## Scheduling Configuration
+#spring.task.scheduling.pool.size=1
+#spring.task.scheduling.thread-name-prefix=scheduled-task-
+#
+#server.port=9210
