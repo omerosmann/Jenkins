@@ -14,3 +14,6 @@ public class JenkinsErrorMessage {
     private String message;
     private boolean isFromJenkins;
 }
+
+
+

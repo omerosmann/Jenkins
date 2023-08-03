@@ -13,3 +13,5 @@ import lombok.Setter;
 public class JenkinsJobInfo {
     private int number;
 }
+
+
