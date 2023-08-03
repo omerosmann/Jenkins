@@ -8,12 +8,12 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class SomeService {
+public class AccessService {
 
     private final ErrorMessageRepository mongoErrorMessageRepository;
 
     @Autowired
-    public SomeService(ErrorMessageRepository mongoErrorMessageRepository) {
+    public AccessService(ErrorMessageRepository mongoErrorMessageRepository) {
         this.mongoErrorMessageRepository = mongoErrorMessageRepository;
     }
 
